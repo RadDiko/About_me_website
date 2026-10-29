@@ -1,0 +1,15 @@
+body {
+    background-color:rgb(255, 220, 210);
+    color:rgb(30, 55, 60);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20;
+    line-height: 150%;
+}
+
+h1 {
+    color:rgb(20, 45, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
