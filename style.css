@@ -1,9 +1,10 @@
 body {
-    background-color:rgb(255, 220, 210);
+    background: linear-gradient(180deg,#eee,#fcd2d2);
     color:rgb(30, 55, 60);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20;
     line-height: 150%;
+    margin: 0;
 }
 
 h1 {
@@ -11,5 +12,110 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0;
 }
 
+header {
+    background:linear-gradient(120deg,#94f4f8,#f59a22);
+    padding: 0;
+    margin-top: 0;
+}   
+
+a:link {
+    color:rgb(20, 45, 50);
+  text-decoration: none;
+}
+
+a:visited {
+    color:rgb(20, 45, 50);
+  text-decoration: none;
+}
+
+a:hover {
+    color:rgba(197, 40, 168);
+}
+
+a:active {
+    color:rgb(20, 45, 50);
+}
+
+nav {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+}
+
+nav > a {
+    margin: auto;
+    font-size: 20px;
+    background-color:rgba(188, 26, 217,10%);
+}
+
+header > h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+     font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 3px solid #555;
+  text-align: left;
+  padding: 8px;
+width: auto;
+}
+
+.title_name {
+    display: flex;
+    
+}
+
+.title_name > div {
+    margin: auto;
+    padding: 15px;
+}
+
+
+.viktor_name {
+    width: 70%;
+}
+
+.viktor_photo {
+    margin: 10px;
+}
+
+.viktor_photo > a > img {
+    width: 400px;
+}
+
+main {
+    margin-top: 25px;   
+}
+
+footer {
+    background: linear-gradient(90deg,#f59a22,#94f4f8);
+    margin-top: 60px;
+}
+
+footer > h1{
+    font-size: 22px;
+    margin: 0;
+}
+
+.fig {
+    display: flex;
+    margin: 10px;
+}
+
+figure 
+{
+    margin: auto;
+}
